@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+  font-family: Lato;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+   background-color: rgb(235, 230, 215);
+   color: rgb(65, 55, 60);
+   height: 100vh;
+
+}
+
+
+.navbar{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: rgb(235, 230, 215);
+   min-height: auto;
+   padding: 2%;
+   gap: 10px;
+}
+
+.button{
+  background-color: rgb(65, 55, 60);
+  color: rgb(235, 230, 215);
+  border: none;
+  border-radius: 10px;
+  padding:10px;
+  font-size: 15px;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  color: rgb(65, 55, 60);
+  text-decoration: none;
+  margin-left: none;
+  margin-right: 40%;
+  
+  
+}
+
+.nav-links :hover{
+  color: rgb(230, 125, 35);
+  text-decoration: none;
+}
+
+
+.home h1{
+  display: flex;
+  font-size: 50px;
+  color: linear-gradient();
+  background: -webkit-linear-gradient(305deg, rgb(22, 20, 21),rgb(230, 125, 35));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  height: 60vh; 
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+.sign-up{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background: white;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+  margin-top: 10%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px;
+}
+
+.sign-up h2{
+  font-size: 40px;
+  font-weight: 400px;
+  padding: 10px;
+  background: white;
+}
+
+.sign-up h3{
+  font-size: 25px;
+  font-weight: 100px;
+  padding-bottom: 5px;
+  background: white;
+}
+
+.sign-up input{
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background: white;
+
+}
+
+.name-input{
+  display:flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.sidebar {
+  width: 220px;
+  background: white;
+  color: rgb(65, 55, 60);
+  padding: 20px;
+}
+
+.select{
+  padding: 10px;
+  border-radius: 6px;
+  border: rgb(65, 55, 60);
+  background-color: white;
+}
+
+.footer{
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(230, 125, 35);
+  padding: 50px;
+  margin-top: auto;
+}
